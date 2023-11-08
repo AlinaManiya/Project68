@@ -1,0 +1,70 @@
+#img1{
+    width: 300px;
+    height:300px ;
+    border-radius:50%;
+}
+body{
+    text-align:center ;
+    
+}
+#welcomeSection{
+    width:100%;
+    height:100%;
+    left:0 ;
+    right:0;
+    bottom:0;
+    top:0;
+    position: absolute;
+    overflow: hidden;
+    display: table;
+    background:linear-gradient(#33F3FF 0%,#33A2FF 100%);
+    z-index: 9;
+}
+.div1{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+p{
+    max-width: 500px;
+    padding-left: 400px;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'EB Garamond', serif;
+}
+.menu{
+list-style: none;
+position: absolute;
+top: 10px;
+right: 30px;
+z-index: 10;
+font-family: 'Playfair Display', serif;
+}
+.link{
+    float: left;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.link:hover{
+    background-color: aquamarine;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+.contact h3{
+    display:inline;
+}
+#footerSection iframe{
+    width:100% ;
+}
+.myNavBar{
+    position: sticky;
+    top: 0;
+    z-index: 15000;
+}
